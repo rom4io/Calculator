@@ -38,7 +38,7 @@ public class Calc {
         if (Character.isDigit(chars[0]) && Character.isDigit(chars[chars.length-1])){
             System.out.print("=" + Latin.Calculate(str, symbolIndex,ch));}
         else if (Character.isLetter(chars[0]) && Character.isLetter(chars[chars.length-1])) {
-            System.out.print(Roma.Calculate(str, symbolIndex, ch));
+            System.out.print("=" + Roma.Calculate(str, symbolIndex, ch));
         } else throw new ArithmeticException("Некорректное выражение");
     }
 }
