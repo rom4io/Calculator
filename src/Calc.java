@@ -11,7 +11,6 @@ public class Calc {
         char[] chars = str.toCharArray();
         int symbolIndex = 0;
         char ch = 0;
-        System.out.println(str);
         for (int i = 1; i < chars.length - 1; i++) {
             switch (chars[i]) {
                 case ('+'):
