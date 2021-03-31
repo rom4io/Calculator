@@ -11,7 +11,6 @@ public class Latin2Roma {
            if (numb1 == 0) result = twoDigit(numb0);
            else if (numb1 != 0) result = twoDigit(numb0)+ oneDigit(numb1);
     }
-
         return result;
 }
 
