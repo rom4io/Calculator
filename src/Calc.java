@@ -8,10 +8,10 @@ public class Calc {
         String str1 = scanner.next();
         String str2 = str1.replaceAll(" ","");
         String str = str2.toUpperCase();
-        char[] chars = str.toCharArray(); 
+        char[] chars = str.toCharArray();
         int symbolIndex = 0;
         char ch = 0;
-        for (int i = 1; i < str.length() - 1; i++) {
+        for (int i = 1; i < chars.length - 1; i++) {
             switch (chars[i]) {
                 case ('+'):
                     symbolIndex = i;
