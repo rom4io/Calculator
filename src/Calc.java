@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Calc {
@@ -6,8 +7,7 @@ public class Calc {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите выражение: ");
         String str1 = scanner.nextLine();
-        String str2 = str1.toUpperCase();
-        String str = str2.replaceAll("\\s+", "");
+        String str = str1.replaceAll("\\s+", "").toUpperCase();
         char[] chars = str.toCharArray();
         int symbolIndex = 0;
         char ch = 0;
